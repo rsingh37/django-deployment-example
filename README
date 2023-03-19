@@ -1,0 +1,16 @@
+Password Generator
+Password Generator is a simple Django web application that generates a random password based on user input.
+
+Installation
+Clone the repository: git clone https://github.com/yourusername/password-generator.git
+Install the required packages: pip install -r requirements.txt
+Run the Django development server: python manage.py runserver
+Navigate to http://localhost:8000/ in your web browser.
+Usage
+Input the desired length of the password (between 1 and 128 characters).
+Click the "Generate" button.
+Your randomly generated password will be displayed on the result page.
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
