@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <label for="length">Length:</label>
+        <input type="number" id="length" name="length" value="8" min="1" max="128">
+        <input type="submit" value="Generate">
+    </form>
+</body>
+</html>
